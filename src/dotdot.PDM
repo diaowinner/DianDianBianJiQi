@@ -1,0 +1,178 @@
+[Root]
+Most Recent Package=点点输入法
+
+
+[Package|DDJGB|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=F:\dotdot\包
+
+[Package|DDJGB|Configure DAO ISAMs]
+Applicable=No
+
+[Package|DDJGB|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|DDJGB|Files Found]
+
+[Package|DDJGB|Files Released]
+
+[Package|DDJGB|Missing Dependency Information]
+
+[Package|DDJGB|Out-of-Date Dependency Information]
+
+[Package|DDJGB|Files Added]
+
+[Package|DDJGB|Files Removed]
+
+[Package|DDJGB|Files In Project]
+F:\dotdot\DDBJQ.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Windows\System32\VB6CHS.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|DDJGB|Configure Registry Files]
+Applicable=No
+
+[Package|DDJGB|Configure Remote Servers]
+Applicable=No
+
+[Package|DDJGB|Install Locations]
+F:\dotdot\DDBJQ.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\VB6CHS.DLL=$(WinSysPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|DDJGB|Configure Shared Files]
+Applicable=Yes
+F:\dotdot\DDBJQ.exe=No
+
+[Package|DDJGB|Distribution]
+Type=single
+Size=
+Title=点点编辑器 DEMO 20020220版
+
+[Package|DDJGB|IconGroups]
+Group0=点点编辑器
+PrivateGroup0=0
+Parent0=$(Programs)
+
+[Package|DDJGB|点点编辑器]
+Icon1=DDBJQ.exe
+Title1=点点编辑器 DEMO 20020220版
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|DDJGB|Package]
+PackageFolder=F:\dotdot\包
+ProjectFolder=F:\dotdot
+ServerSideCab=
+File1=F:\dotdot\包\setup.exe
+File2=F:\dotdot\包\Setup.Lst
+File3=F:\dotdot\包\DDBJQ.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|点点输入法|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=F:\dotdot\release
+
+[Package|点点输入法|Configure DAO ISAMs]
+Applicable=No
+
+[Package|点点输入法|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|点点输入法|Files Found]
+
+[Package|点点输入法|Files Released]
+
+[Package|点点输入法|Missing Dependency Information]
+
+[Package|点点输入法|Out-of-Date Dependency Information]
+
+[Package|点点输入法|Files Added]
+
+[Package|点点输入法|Files Removed]
+
+[Package|点点输入法|Files In Project]
+F:\dotdot\DDBJQ.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Windows\System32\VB6CHS.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|点点输入法|Configure Registry Files]
+Applicable=No
+
+[Package|点点输入法|Configure Remote Servers]
+Applicable=No
+
+[Package|点点输入法|Install Locations]
+F:\dotdot\DDBJQ.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\VB6CHS.DLL=$(WinSysPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|点点输入法|Configure Shared Files]
+Applicable=Yes
+F:\dotdot\DDBJQ.exe=No
+
+[Package|点点输入法|Distribution]
+Type=single
+Size=
+Title=点点编辑器DEMO 20200220版
+
+[Package|点点输入法|IconGroups]
+Group0=点点编辑器
+PrivateGroup0=0
+Parent0=$(Programs)
+
+[Package|点点输入法|点点编辑器]
+Icon1=DDBJQ.exe
+Title1=点点编辑器（DEMO版）
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|点点输入法|Package]
+PackageFolder=F:\dotdot\release
+ProjectFolder=F:\dotdot
+ServerSideCab=
+File1=F:\dotdot\release\setup.exe
+File2=F:\dotdot\release\Setup.Lst
+File3=F:\dotdot\release\DDBJQ.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
