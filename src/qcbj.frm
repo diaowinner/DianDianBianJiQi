@@ -1,14 +1,14 @@
 VERSION 5.00
-Begin VB.Form qcbj 
+Begin VB.Form È«³Æ_±àÂë 
    Caption         =   "È«³Æ/±àÂë±à¼­"
    ClientHeight    =   2535
    ClientLeft      =   120
    ClientTop       =   450
-   ClientWidth     =   1965
+   ClientWidth     =   2070
    LinkTopic       =   "Form1"
    MaxButton       =   0   'False
    ScaleHeight     =   2535
-   ScaleWidth      =   1965
+   ScaleWidth      =   2070
    StartUpPosition =   3  '´°¿ÚÈ±Ê¡
    Begin VB.CommandButton okay 
       Caption         =   "È·¶¨"
@@ -320,11 +320,13 @@ Begin VB.Form qcbj
       Width           =   1695
    End
 End
-Attribute VB_Name = "qcbj"
+Attribute VB_Name = "È«³Æ_±àÂë"
 Attribute VB_GlobalNameSpace = False
 Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
+
+
 Private Sub okay_Click()
 Unload qcbj
 End Sub

@@ -1,5 +1,5 @@
 VERSION 5.00
-Begin VB.Form suoxie 
+Begin VB.Form Àı–¥ 
    Caption         =   "Àı–¥±‡º≠"
    ClientHeight    =   3675
    ClientLeft      =   120
@@ -8,6 +8,8 @@ Begin VB.Form suoxie
    Icon            =   "suoxie.frx":0000
    LinkTopic       =   "Form1"
    MaxButton       =   0   'False
+   MinButton       =   0   'False
+   NegotiateMenus  =   0   'False
    ScaleHeight     =   3675
    ScaleWidth      =   5565
    StartUpPosition =   3  '¥∞ø⁄»± °
@@ -883,11 +885,21 @@ Begin VB.Form suoxie
       Width           =   735
    End
 End
-Attribute VB_Name = "suoxie"
+Attribute VB_Name = "Àı–¥"
 Attribute VB_GlobalNameSpace = False
 Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
 Private Sub baocun_Click()
-Unload suoxie
+Unload Àı–¥
+End Sub
+
+Private Sub Form_Load()
+diandian.mainpage.Enabled = False
+
+End Sub
+
+Private Sub Form_QueryUnload(Cancel As Integer, UnloadMode As Integer)
+diandian.mainpage.Enabled = True
+
 End Sub
