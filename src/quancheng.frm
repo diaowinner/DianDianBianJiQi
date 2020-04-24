@@ -41,7 +41,7 @@ Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
 Private Sub okay_Click()
-diandian.qcbj.Show
+diandian.È«³ÆºÍ±àÂë±à¼­.Show
 End Sub
 Private Sub Form_Load()
 diandian.mainpage.Enabled = False

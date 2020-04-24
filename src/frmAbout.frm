@@ -83,7 +83,7 @@ Begin VB.Form frmAbout
       Y2              =   1697.936
    End
    Begin VB.Label lblVersion 
-      Caption         =   "20200220 版"
+      Caption         =   "20200424 版"
       Height          =   225
       Left            =   1080
       TabIndex        =   6
@@ -106,7 +106,10 @@ Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
 Option Explicit
-
+'*************************************************
+Const Version As String = "1.0.1"
+Const 警告 As String = "Warning Message....."
+'*************************************************
 ' 注册表关键字安全选项...
 Const READ_CONTROL = &H20000
 Const KEY_QUERY_VALUE = &H1
@@ -245,4 +248,5 @@ End Function
 Private Sub Form_QueryUnload(Cancel As Integer, UnloadMode As Integer)
 diandian.mainpage.Enabled = True
 End Sub
+
 

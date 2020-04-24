@@ -14,5 +14,4 @@ Attribute VB_Exposed = False
 Option Explicit
 
 Public IsDisabled As Boolean
-Const Version As String = "1.0.1"
-Const ¾¯¸æ As String = "Warning Message....."
+

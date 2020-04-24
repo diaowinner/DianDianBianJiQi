@@ -157,6 +157,3 @@ diandian.Find.Show
 End Sub
 
 
-Private Sub tooltext1_Click()
-
-End Sub
