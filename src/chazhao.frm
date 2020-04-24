@@ -1,5 +1,5 @@
 VERSION 5.00
-Begin VB.Form chazhao 
+Begin VB.Form Find 
    Caption         =   "≤È’“°≠"
    ClientHeight    =   825
    ClientLeft      =   120
@@ -42,15 +42,26 @@ Begin VB.Form chazhao
       Width           =   495
    End
 End
-Attribute VB_Name = "chazhao"
+Attribute VB_Name = "Find"
 Attribute VB_GlobalNameSpace = False
 Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
+Private Sub Form_Load()
+diandian.mainpage.Enabled = False
+
+End Sub
+
+Private Sub Form_QueryUnload(Cancel As Integer, UnloadMode As Integer)
+diandian.mainpage.Enabled = True
+
+End Sub
+
+
 Private Sub okay_Click()
-diandian.bianji.Show
+diandian.±‡º≠.Show
 End Sub
 
 Private Sub xinzifu_Click()
-diandian.bianji.Show
+diandian.±‡º≠.Show
 End Sub

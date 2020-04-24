@@ -5,7 +5,7 @@ Begin VB.Form frmAbout
    ClientHeight    =   3555
    ClientLeft      =   2340
    ClientTop       =   1935
-   ClientWidth     =   5730
+   ClientWidth     =   5805
    ClipControls    =   0   'False
    Icon            =   "frmAbout.frx":0000
    LinkTopic       =   "Form2"
@@ -13,7 +13,7 @@ Begin VB.Form frmAbout
    MinButton       =   0   'False
    ScaleHeight     =   2453.724
    ScaleMode       =   0  'User
-   ScaleWidth      =   5380.766
+   ScaleWidth      =   5451.195
    ShowInTaskbar   =   0   'False
    Begin VB.PictureBox picIcon 
       AutoSize        =   -1  'True
@@ -56,7 +56,7 @@ Begin VB.Form frmAbout
       Y2              =   1687.583
    End
    Begin VB.Label lblDescription 
-      Caption         =   "“打算为Windows 95打造”的点点编辑器"
+      Caption         =   "为Windows 95而打造的点点编辑器"
       ForeColor       =   &H00000000&
       Height          =   1170
       Left            =   1050
@@ -91,7 +91,7 @@ Begin VB.Form frmAbout
       Width           =   3885
    End
    Begin VB.Label lblDisclaimer 
-      Caption         =   "警告: ..."
+      Caption         =   "警告:"
       ForeColor       =   &H00000000&
       Height          =   825
       Left            =   255
@@ -144,10 +144,13 @@ Private Sub cmdOK_Click()
 End Sub
 
 Private Sub Form_Load()
+diandian.mainpage.Enabled = False
     Me.Caption = "关于 " & App.title
-    lblVersion.Caption = "版本 " & App.Major & "." & App.Minor & "." & App.Revision
+    lblVersion.Caption = "版本 " & Version
     lblTitle.Caption = App.title
+    lblDisclaimer.Caption = lblDisclaimer.Caption + 警告
 End Sub
+
 
 Public Sub StartSysInfo()
     On Error GoTo SysInfoErr
@@ -180,6 +183,8 @@ SysInfoErr:
 End Sub
 
 Public Function GetKeyValue(KeyRoot As Long, KeyName As String, SubKeyRef As String, ByRef KeyVal As String) As Boolean
+    On Error GoTo GetKeyError
+    
     Dim i As Long                                           ' 循环计数器
     Dim rc As Long                                          ' 返回代码
     Dim hKey As Long                                        ' 打开的注册表关键字句柄
@@ -232,4 +237,12 @@ GetKeyError:      ' 错误发生后将其清除...
     GetKeyValue = False                                     ' 返回失败
     rc = RegCloseKey(hKey)                                  ' 关闭注册表关键字
 End Function
+
+
+
+
+
+Private Sub Form_QueryUnload(Cancel As Integer, UnloadMode As Integer)
+diandian.mainpage.Enabled = True
+End Sub
 

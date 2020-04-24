@@ -1,12 +1,13 @@
 Type=Exe
 Form=mainpage.frm
-Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#C:\Windows\SysWOW64\stdole2.tlb#OLE Automation
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\..\..\..\..\Windows\SysWow64\stdole2.tlb#OLE Automation
 Form=suoxie.frm
 Form=quancheng.frm
 Form=qcbj.frm
 Form=chazhao.frm
 Form=bianji.frm
 Form=frmAbout.frm
+Class=Class1; Class1.cls
 IconForm="mainpage"
 Startup="mainpage"
 HelpFile=""

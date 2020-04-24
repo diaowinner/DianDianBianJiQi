@@ -1,5 +1,5 @@
 VERSION 5.00
-Begin VB.Form bianji 
+Begin VB.Form ±à¼­ 
    Caption         =   "±à¼­¡­"
    ClientHeight    =   1230
    ClientLeft      =   120
@@ -49,15 +49,12 @@ Begin VB.Form bianji
       Width           =   255
    End
 End
-Attribute VB_Name = "bianji"
+Attribute VB_Name = "±à¼­"
 Attribute VB_GlobalNameSpace = False
 Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
-Private Sub Command1_Click()
-
-End Sub
 
 Private Sub quedinh_Click()
-Unload bianji
+Unload ±à¼­
 End Sub

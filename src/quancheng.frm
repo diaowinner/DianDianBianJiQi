@@ -1,5 +1,5 @@
 VERSION 5.00
-Begin VB.Form quancheng 
+Begin VB.Form È«³ÆºÍ±àÂë±à¼­ 
    Caption         =   "Ñ¡ÔñÈ«³Æ¡­"
    ClientHeight    =   3030
    ClientLeft      =   120
@@ -35,7 +35,7 @@ Begin VB.Form quancheng
       Width           =   4335
    End
 End
-Attribute VB_Name = "quancheng"
+Attribute VB_Name = "È«³ÆºÍ±àÂë±à¼­"
 Attribute VB_GlobalNameSpace = False
 Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
@@ -43,3 +43,13 @@ Attribute VB_Exposed = False
 Private Sub okay_Click()
 diandian.qcbj.Show
 End Sub
+Private Sub Form_Load()
+diandian.mainpage.Enabled = False
+
+End Sub
+
+Private Sub Form_QueryUnload(Cancel As Integer, UnloadMode As Integer)
+diandian.mainpage.Enabled = True
+
+End Sub
+

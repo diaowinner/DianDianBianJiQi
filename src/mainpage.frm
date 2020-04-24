@@ -1,15 +1,15 @@
 VERSION 5.00
 Begin VB.Form mainpage 
    Caption         =   "点点编辑器"
-   ClientHeight    =   3030
+   ClientHeight    =   3015
    ClientLeft      =   120
    ClientTop       =   450
-   ClientWidth     =   4560
+   ClientWidth     =   4710
    Icon            =   "mainpage.frx":0000
    LinkTopic       =   "Form1"
    MaxButton       =   0   'False
-   ScaleHeight     =   3030
-   ScaleWidth      =   4560
+   ScaleHeight     =   3015
+   ScaleWidth      =   4710
    StartUpPosition =   3  '窗口缺省
    Begin VB.CommandButton settings 
       Height          =   495
@@ -39,12 +39,12 @@ Begin VB.Form mainpage
       Width           =   495
    End
    Begin VB.CommandButton krnl 
-      Caption         =   "选择文件夹"
+      Caption         =   "&选择文件夹"
       Height          =   255
       Left            =   3240
       TabIndex        =   5
       Top             =   360
-      Width           =   1095
+      Width           =   1335
    End
    Begin VB.CommandButton tool2 
       Height          =   495
@@ -138,26 +138,25 @@ Attribute VB_GlobalNameSpace = False
 Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
-Private Sub Label1_Click()
 
-End Sub
 
-Private Sub Label2_Click()
-
-End Sub
-
-Private Sub tooltext1a_Click()
-
+Private Sub about_Click()
+diandian.frmAbout.Show
 End Sub
 
 Private Sub tool1_Click()
-diandian.suoxie.Show
+diandian.缩写.Show
 End Sub
 
 Private Sub tool2_Click()
-diandian.quancheng.Show
+diandian.全称和编码编辑.Show
 End Sub
 
 Private Sub tool3_Click()
-diandian.chazhao.Show
+diandian.Find.Show
+End Sub
+
+
+Private Sub tooltext1_Click()
+
 End Sub
